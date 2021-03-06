@@ -1,2 +1,5 @@
-# demonetization-sentiment-analysis
-Social Media (Twitter) Opinion Mining - Demonetization Sentiment Analysis
+# Spcial Media (Twitter) Mining - Demonetization Sentiment Analysis
+
+# Problem Statement
+
+
