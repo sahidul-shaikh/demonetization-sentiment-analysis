@@ -14,5 +14,14 @@ The announcement was made by the Prime Minister of India Narendra Modi in an uns
 
 The data contains 6000 most recent tweets on #demonetization. There are 6000 rows(one for each tweet) and 14 columns. 
 
-***Note:- *** The dataset and the problem statement are also available in [Kaggle](https://www.kaggle.com/arathee2/demonetization-in-india-twitter-data)
+Note:- The dataset and the problem statement are also available in [Kaggle](https://www.kaggle.com/arathee2/demonetization-in-india-twitter-data)
+
+## The process we will follow is summarised below:
+
+- Getting tweets talking about a certain topic
+- Cleaning the tweets (removing stop words etc.) 
+- Computing embeddings of tweets using pre-trained word embeddings (such as wor2vec)
+- Computing tweet embeddings with sentiment by appending a 'sentiment score' to the 'tweet embeddings'
+- Clustering the tweet-sentiment embeddings (each cluster representing a 'narrative')
+- Identifying key characteristic phrases of each narrative using TF-IDF frequencies of commonly occurring phrases 
 
